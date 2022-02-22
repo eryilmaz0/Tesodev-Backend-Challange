@@ -25,7 +25,7 @@ Also all the unit test has written and successfully completed for controller and
 
 
 ## Order Microservice
-Order project is responsible for handling order transactions such as read, create, update and delete. When creating and updating an order, makes customer validation. This transaction is performed by making a synchronous request to the Validate Customer endpoint in customer microservice. In this project, i used Entity Framework Core as ORM technology, and PostgreSQL as Database. Also in this project, i used Onion Architecture what an implementation of the Clean Architecture. I Created four layers which Domain, Application, Infrastructure and Web Api. I used CQRS and mediator pattern, and used mediatr library for implementation of the mediator and CQRS pattern.
+Order project is responsible for handling order transactions such as read, create, update and delete. When creating and updating an order, makes customer validation. This transaction is performing by making a synchronous request to the Validate Customer endpoint in customer microservice. In this project, i used Entity Framework Core as ORM technology, and PostgreSQL as Database. Also in this project, i used Onion Architecture what an implementation of the Clean Architecture. I Created four layers which Domain, Application, Infrastructure and Web Api. I used CQRS and mediator pattern, and used mediatr library for implementation of the mediator and CQRS pattern.
 
 <p align="center">
   <img src="img/onionarchitecture.png" />
