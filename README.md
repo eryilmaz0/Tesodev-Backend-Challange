@@ -3,7 +3,7 @@
 This is Tesodev Challange Project. You can check below for the project infrastructure and more information. 
 
 ## Domain
-The project has a basic e-commerce application domain. There are two simple microservices which Customer and Order services. Each project has different architectures and libraries. There is one gateway project, which it is a asp core web api project and using Ocelot gateway library. You can see more information about microservices down below.
+The project has a basic e-commerce application domain. There are two simple microservices which Customer and Order services. Each project has different architectures and libraries. There is one gateway project, which it is an asp core web api project and using Ocelot gateway library. You can see more information about microservices down below.
 
 <p align="center">
   <img src="img/projectdomain.png" />
