@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="10.3.6" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Core\TesodevMicroservices.Core\TesodevMicroservices.Core.csproj" />
+    <ProjectReference Include="..\TesodevMicroservices.OrderService.Domain\TesodevMicroservices.OrderService.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Command\" />
+    <Folder Include="Handler\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Dto\" />
+    <Folder Include="Middleware\" />
+    <Folder Include="Validator\DeleteOrder\" />
+    <Folder Include="Validator\ChangeOrderStatus\" />
+    <Folder Include="Validator\GetOrders\" />
+    <Folder Include="Validator\GetOrdersByCustomer\" />
+    <Folder Include="Validator\GetOrderById\" />
+    <Folder Include="Validator\UpdateOrder\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="ResponseObject\" />
+    <Folder Include="Repository\" />
+  </ItemGroup>
+
+</Project>
